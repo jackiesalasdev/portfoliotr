@@ -686,11 +686,15 @@ section#testimonials {
 /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Contact Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
 section#contact {
   height: 100vh;
-  background-image: url("img/full-bg-03.jpg");
+  background-image: url("img/c2.jpg");
+  background-position: 100%;
 
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+img/c2.jpg {
+  display: block;
 }
 
 .contact__form {
@@ -894,6 +898,6 @@ input[type="submit"] {
 
   /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Contact Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
   section#contact {
-    background-position: 15% 5%;
+    background-position: 100%;
   }
 }
